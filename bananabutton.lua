@@ -33,5 +33,3 @@ button.MouseButton1Click:Connect(function()
           CancelTween()
         end
     })
-    toTarget(game:GetService("Players").LocalPlayer.Character.HumanoidRootPart.CFrame)
-end)
