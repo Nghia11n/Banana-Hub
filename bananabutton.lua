@@ -29,4 +29,5 @@ button.Parent = screenGui -- Đặt nút là con của ScreenGui
 -- Gán sự kiện khi nút được nhấn
 button.MouseButton1Click:Connect(function()
     -- Điều khiển hành động khi nút được nhấn ở đây
-    
+    toTarget(game:GetService("Players").LocalPlayer.Character.HumanoidRootPart.CFrame)
+end)
