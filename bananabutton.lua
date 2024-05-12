@@ -29,7 +29,3 @@ button.Parent = screenGui -- Đặt nút là con của ScreenGui
 -- Gán sự kiện khi nút được nhấn
 button.MouseButton1Click:Connect(function()
     --
-             Callback = function()
-          CancelTween()
-        end
-    })
